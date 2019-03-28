@@ -1,0 +1,164 @@
+
+
+body {
+    
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+   
+.navegacao {
+    background-color: #a0bed0;
+    display: flex;
+    justify-content: flex-end;
+    padding: 1%;
+    
+
+}
+.menu{
+    list-style: none;
+    display: flex;
+    color: aliceblue;
+    
+
+}
+.menu__link{
+    padding: 10px;
+}
+.banner {
+    background-image: url("./imagens/foto-banner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+    height: 500px;     
+} 
+
+h1{
+    margin: 0;
+    font-size: 105px;
+    color: whitesmoke;
+    text-transform: uppercase;
+    letter-spacing: 8px;
+    margin-bottom: 10px;
+}
+h2{
+    margin: 0;
+    font-size: 22px;
+    color: whitesmoke;
+    font-weight: 400;
+    line-height: 28px; 
+    margin: 15px 0 15px 0; 
+}
+.cabecalho > h2 {
+    width: 31%;
+}
+.cabecalho {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cabecalho__button{
+    padding: 20px;
+    background-color: #829dad;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: whitesmoke;
+    font-family: 'varela round, sans-serif';
+}
+
+.sobre {
+    background-color: rgba(22, 22, 22, .8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+    padding: 40px;
+}
+.sobre > p{
+    width: 51%;
+}
+.container__conteudo {
+    padding: 80px;
+
+}
+.conteudo__siberia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img__siberia {
+    max-width: 740px;
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.siberia__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin-left: 20px;
+}
+.siberia__paragrafo {
+    width: 70%;
+
+}
+.mosaico {
+    padding: 6% 3% 3% 3%;
+}
+.conteudo__groelandia {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+.img__groelandia {
+    width: 50%;
+}
+.groelandia__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+}
+
+.conteudo__antartida {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background-color: black;
+    color: white;
+    
+}
+.img__antartida {
+    width: 50%;
+}
+.antartida__texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    margin: 0 auto;
+}
+.footer {
+    background-color: #161616;
+    margin-top: 80px;
+    text-align: center;
+    color: rgba(255, 255, 255, .5);
+    padding: 40px;
+}
+.footer__lista {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+.footer > a {
+    margin: 0 auto;
+    text-decoration: none;
+    color: #829dad;
+}
